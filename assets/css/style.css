@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    background-color: black;
 }
 
 /* Navbar */
@@ -57,6 +58,7 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
  /*::after credited to developer.mozilla.org */
 
  .text-box {
@@ -109,8 +111,118 @@ nav img {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: 0;
+        right: 0px;
         text-align: left;
         z-index: 2;
     }
- }    
+    .nav-links {
+        padding: 30px;
+    }
+
+    
+ } 
+
+ /*Classes*/
+
+ .classes {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+ }
+
+ h1 {
+    font-size: 36px;
+    font-weight: 600;
+ }
+
+ p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+ }
+
+ .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.class-col {
+    flex-basis: 31%;
+    background: #1792b12f;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-bottom: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.class-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+/*------Trainers------*/
+
+.trainers {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.trainers-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.trainers-col img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.layer {
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 300;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
