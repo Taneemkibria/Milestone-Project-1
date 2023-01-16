@@ -226,3 +226,77 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+
+/*------Pricing------*/
+
+.pricing {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.price-col {
+    flex-basis: 30%;
+    margin-bottom: 5%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(23, 146, 177, 0.184);
+}
+
+.price-col li {
+    list-style: none;
+}
+
+.price-col h1, h2, ul {
+    padding: 3%;
+}
+
+.price-col li {
+    padding: 2%;
+    text-align: left;
+}
+
+.price-col:hover {
+    background-color: #1791b1;
+}
+
+/*------Contact------*/
+
+.contact {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url('../images/squat.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px) {
+    .contact h1 {
+        font-size: 24px;
+    }
+}
+
+/*------Contact------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
