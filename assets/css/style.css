@@ -26,7 +26,7 @@
 
 nav img {
     width: 150px;
-}   
+}
 
 .nav-links {
     flex: 1;
@@ -40,7 +40,7 @@ nav img {
     position: relative;
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -59,31 +59,32 @@ nav img {
     width: 100%;
 }
 
- /*::after credited to developer.mozilla.org */
 
- .text-box {
+/*::after credited to developer.mozilla.org */
+
+.text-box {
     width: 90%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
- }
+}
 
- .text-box h1 {
+.text-box h1 {
     font-size: 62px;
- }
+}
 
- .text-box p {
+.text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
- }
+}
 
- /*Buttons*/
+/*Buttons*/
 
- .join-btn {
+.join-btn {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -92,62 +93,77 @@ nav img {
     font-size: 13px;
     background: #1791b1;
     position: relative;
- }
+}
 
- .join-btn:hover {
+.join-btn:hover {
     background: #1792b1b5;
     text-decoration: none;
- }
+}
 
- @media(max-width:700px) {
-    .text-box h1 {font-size: 20px;
+nav .fa {
+    display: none;
+}
+
+@media(max-width:700px) {
+    .text-box h1 {
+        font-size: 20px;
     }
+
     .nav-links ul li {
         display: block;
     }
+
     .nav-links {
         position: absolute;
         background: #1791b1;
         height: 100vh;
         width: 200px;
         top: 0;
-        right: 0px;
+        right: -200px;
         text-align: left;
         z-index: 2;
     }
+
     .nav-links {
         padding: 30px;
     }
 
-    
- } 
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
 
- /*Classes*/
+    }
 
- .classes {
+}
+
+/*Classes*/
+
+.classes {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
- }
+}
 
- h1 {
+h1 {
     font-size: 36px;
     font-weight: 600;
- }
+}
 
- p {
+p {
     color: black;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
- }
+}
 
- .row {
+.row {
     margin-top: 5%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .class-col {
@@ -170,7 +186,7 @@ h3 {
 }
 
 @media(max-width: 700px) {
-    .row{
+    .row {
         flex-direction: column;
     }
 }
@@ -192,14 +208,14 @@ h3 {
     overflow: hidden;
 }
 
-.trainers-col img{
+.trainers-col img {
     width: 100%;
     height: 100%;
     display: block;
 }
 
 .layer {
-    background:transparent;
+    background: transparent;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -249,7 +265,9 @@ h3 {
     list-style: none;
 }
 
-.price-col h1, h2, ul {
+.price-col h1,
+h2,
+ul {
     padding: 3%;
 }
 
@@ -267,7 +285,7 @@ h3 {
 .contact {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url('../images/squat.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('../images/squat.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -300,3 +318,102 @@ h3 {
     margin-top: 20px;
     font-weight: 600;
 }
+
+.icons .fa {
+    color: #1791b1;
+    margin: 0 13px;
+    padding: 18px 0;
+}
+
+/*----------Classes Page----------*/
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/fitnessclass.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 0;
+}
+
+.sub-header .text-box h1{
+    font-size: 62px;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+.strength {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.strength-col {
+    flex-basis: 48%;
+    padding: 20px 2px;
+}
+
+.strength-col img {
+    width: 100%;
+}
+
+.strength-col h1 {
+    padding-top: 0;
+}
+
+.strength-col p {
+    padding: 15px 0 25px;
+}
+
+.pilates {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pilates-col {
+    flex-basis: 48%;
+    padding: 20px 2px;
+}
+
+.pilates-col img {
+    width: 100%;
+}
+
+.pilates-col h1 {
+    padding-top: 0;
+}
+
+.pilates-col p {
+    padding: 15px 0 25px;
+}
+
+.cycle {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.cycle-col {
+    flex-basis: 48%;
+    padding: 20px 2px;
+}
+
+.cycle-col img {
+    width: 100%;
+}
+
+.cycle-col h1 {
+    padding-top: 0;
+}
+
+.cycle-col p {
+    padding: 15px 0 25px;
+}
+
