@@ -499,3 +499,33 @@ ul {
     background: #1792b1b5;
     text-decoration: none;
 }
+
+/*------Gallery------*/
+
+.bg {
+    background-color: black;
+}
+
+.gallery-header .nav-links ul li a {
+    color: #fff;
+}
+
+.gallery {
+    background-color: black;
+    clear: both;
+    line-height: 10px;
+    column-count: 3;
+    column-gap: 0;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+@media(max-width:700px) {
+    .gallery {
+        column-count: 1;
+        
+}
+}
+  
