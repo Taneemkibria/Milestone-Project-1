@@ -21,10 +21,10 @@
         <nav>
 
             <div class="nav-links" id="navLinks">
-                <!-- code form line 24-25 is from easy tutorials -->
-                <i class="fa fa-bars" onclick="showMenu()"></i>
+                <!-- code form line 24-25 and line 36 is from easy tutorials -->
+
                 <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
+                <ul class="menu">
                     <li><a href="index.html"><strong>The Gym</strong></a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="classes.html">Classes</a></li>
@@ -33,6 +33,7 @@
                 </ul>
 
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
 
         </nav>
         <div>
@@ -104,11 +105,11 @@
         var navLinks = document.getElementById("navLinks");
 
         function showMenu() {
-            navLinks.style.right = "0"
+            navLinks.style.left = "0"
         }
 
         function hideMenu() {
-            navLinks.style.right = "-200px"
+            navLinks.style.left = "-200px"
         }
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
