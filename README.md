@@ -1,4 +1,4 @@
-# Milestone-Project-1
+# The Gym
 
 [View the live project here.](#)
 
@@ -32,6 +32,8 @@ This is the main website for 'The Gym'. It is designed to be responsive and acce
         -   Imagery is important. The large, background hero image is designed to  catch the user's attention and set the tone for the page. It shows a clean and modern looking gym, conincing customers to join.
 
 *   ### Wireframes
+
+- Balsamiq expired at the end of 2022 and wouldn't let me use it. I ended up just following the layout of the love running and bootstrap whiskey drop project. In the future I would definitely use a wireframe or at least draw it out.
 
 ## Features
 
@@ -126,12 +128,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Lighthouse test was run, performace - 82, accessibilty - 86, best practices - 75, seo - 90.
 - Was also tested on Google chrome, internet explorer and different device sizes through devtools.
+- I have had my family test the site and they found it easy to use.
 
 
 ### Known Bugs
 
 - A tiny white gap on the right hand side was found when opened in internet explorer on iphone xr.
-- The nav menu displays as open on small devices and you have to close it.
 - The navigation bar on smaller screen sizes. I really struggled to make a responsive navigation menu for small screen sizes using code from the bootstrap library that I has used in a previous project below 
  <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,15 +163,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps;
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Taneemkibria/The-Gym)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+3. Scroll down the Settings page until you locate the "Pages" Section on the left hand side.
+4. Under "Source", click the dropdown called "None" and select "Main".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll up to the page to locate the now published site [link](https://taneemkibria.github.io/The-Gym/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+### Making a Local Clone
 
 
 
