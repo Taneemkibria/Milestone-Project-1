@@ -172,15 +172,6 @@ The project was deployed to GitHub Pages using the following steps;
 5. The page will automatically refresh.
 6. Scroll up to the page to locate the now published site [link](https://taneemkibria.github.io/The-Gym/) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
-
-### Making a Local Clone
-
-
-
-
-
-
 ## Credits
 
 ### Code
@@ -230,6 +221,7 @@ The project was deployed to GitHub Pages using the following steps;
 - Photo by Sahil Khaliq from Pexels: https://www.pexels.com/photo/a-topless-man-showing-his-physique-10929340/
 - Photo by Anastasia  Shuraeva from Pexels: https://www.pexels.com/photo/photo-of-a-woman-lifting-a-kettlebell-4945521/
 - Photo by Sabel Blanco from Pexels: https://www.pexels.com/photo/photo-woman-bodybuilder-using-cable-and-pulley-machine-while-facing-mirror-1480520/
+- All icons from  Font awesome (fontawesome.com)
 
 
 ### Acknowledgements

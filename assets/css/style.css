@@ -58,9 +58,6 @@ nav img {
     width: 100%;
 }
 
-
-/*::after credited to developer.mozilla.org */
-
 .text-box {
     width: 90%;
     color: #fff;
@@ -173,6 +170,7 @@ p {
     margin-bottom: 20px 12px;
     box-sizing: border-box;
 }
+
 
 h3 {
     text-align: center;
