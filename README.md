@@ -122,6 +122,116 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         
         1. New classes can be checked in the classes page that can be found in the navbar. I do think a newsletter would be more convenient and will probably be something that I do after the end of the course when I have more time.
 
+### Further Testing
+
+- Lighthouse test was run, performace - 82, accessibilty - 86, best practices - 75, seo - 90.
+- Was also tested on Google chrome, internet explorer and different device sizes through devtools.
+
+
+### Known Bugs
+
+- A tiny white gap on the right hand side was found when opened in internet explorer on iphone xr.
+- The nav menu displays as open on small devices and you have to close it.
+- The navigation bar on smaller screen sizes. I really struggled to make a responsive navigation menu for small screen sizes using code from the bootstrap library that I has used in a previous project below 
+ <!-- <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>-->
+- I was unable to get the menu styled the way I wanted to and it wouldn't display on all devices. This was one of my biggest struggles. I tried code from W3schools for the nav menu on smaller screen sizes and couldn't get the menu to open and close. 
+- I then referred to Easy Tutorials on Youtube and used code from there instead which I have put below and in the credits section. I then had trouble styling the nav again and getting it to open and close and it took me almost until the end of the project to realise tht i used .nav instead of nav in the css.
+<!--    <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul class="menu">
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.left = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.left = "-200px"
+        }
+    </script> -->
+- After submitting a message on the contact us now page form an error shows up because I haven't linked it to where the forms are meant to be sent.    
+
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Taneemkibria/The-Gym)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+
+
+
+
+
+## Credits
+
+### Code
+- <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul class="menu">
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        
+        <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.left = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.left = "-200px"
+        }
+    </script> 
+      .nav-links {
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+- The code above is credited to Easy Tutorials on Youtube (https://youtu.be/oYRda7UtuhA)
+
+
+
+
+### Media
+
+- All Images were downloaded from Pexels.com
+- Photo by Leon Ardho from Pexels: https://www.pexels.com/photo/man-and-woman-holding-battle-ropes-1552242/
+- Photo by Max Vakhtbovych from Pexels: https://www.pexels.com/photo/various-fitness-machines-in-modern-spacious-gym-7031706/
+- Photo by Victor Freitas from Pexels: https://www.pexels.com/photo/person-holding-barbell-841130/
+- Photo by Pixabay from Pexels: https://www.pexels.com/photo/woman-doing-exercise-414029/
+- Photo by Leon Ardho from Pexels: https://www.pexels.com/photo/woman-lifting-barbell-1552249/
+- Photo by Jonathan Borba from Pexels: https://www.pexels.com/photo/woman-kneeling-with-barbel-on-shoulders-3076514/
+- Photo by Tima Miroshnichenko from Pexels: https://www.pexels.com/photo/a-woman-in-black-tank-top-sitting-on-an-air-bike-6389499/
+- Photo by Nicholas Fu from Pexels: https://www.pexels.com/photo/fitness-instructor-assisting-woman-doing-pilates-9288101/
+- Photo by Pikx By Panther from Pexels: https://www.pexels.com/photo/photo-of-man-with-muscular-body-1547248/
+- Photo by cottonbro studio from Pexels: https://www.pexels.com/photo/woman-in-black-sportswear-lifting-a-barbell-7674493/
+- Photo by cottonbro studio from Pexels: https://www.pexels.com/photo/woman-in-red-sports-bra-and-green-shorts-sitting-on-purple-carpet-4325484/
+- Photo by Sahil Khaliq from Pexels: https://www.pexels.com/photo/a-topless-man-showing-his-physique-10929340/
+- Photo by Anastasia  Shuraeva from Pexels: https://www.pexels.com/photo/photo-of-a-woman-lifting-a-kettlebell-4945521/
+- Photo by Sabel Blanco from Pexels: https://www.pexels.com/photo/photo-woman-bodybuilder-using-cable-and-pulley-machine-while-facing-mirror-1480520/
+
+
+### Acknowledgements
+
+- A huge shoutout to Easy Tutorials on Youtube for helping me fix the problem with my nav bar on smaller screen sizes!
+
+
     
 
 
