@@ -27,9 +27,9 @@ This is the main website for 'The Gym'. It is designed to be responsive and acce
     -   #### Colour Scheme
         -   The two main colours used are #1791b1 - a shade of blue, and white. Originally I thought of having 3 main colours including a shade of pink or dark blue but decided against it as it would be overwhelming and too busy.
     -   #### Typography
-        -   The Robot font is the main font used throughout the whole website with Sans Serif as the fallback font in case the choice of font doesn't get imported into the site correctly. Roboto is a clean font that I have seen being used throughout my course hence why I chose it.
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case the choice of font doesn't get imported into the site correctly. Roboto is a clean font that I have seen being used throughout my course hence why I chose it.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to  catch the user's attention and set the tone for the page. It shows a clean and modern looking gym, conincing customers to join.
+        -   Imagery is important. The large, background hero image is designed to  catch the user's attention and set the tone for the page. It shows a clean and modern looking gym, convincing customers to join.
 
 *   ### Wireframes
 
@@ -96,7 +96,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     3.  As a First Time visitor, I want to be able to find the contact information easily to solve any queries that I might have, or has not been answered on the site.
 
         1. The contact us page link can be seen clearly in the navigation bar on each page 
-        2. A from conatining a message box can be used for queries on the contact us page.
+        2. A form containing a message box can be used for queries on the contact us page.
         3. At the bottom of the page there are social media icons which direct to the companies social pages where they can also be contacted.
         
 
@@ -105,7 +105,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a Returning Visitor, I want to find information about the pricing, opening hours and classes.
 
         1. The pricing can be found through scrolling down on the home page and is under the clear heading 'Pricing'.
-        2. Information on the classes can be found by scrolling down on the home page under the heading 'classes' where a little insight is given. More information on the classes can be found on the classes page which is in the navbar. 
+        2. Information on the classes can be found by scrolling down on the home page under the heading 'classes' where a little insight is given. There is a learn more button that links to the classes page. More information on the classes can be found on the classes page which is in the navbar. 
         3. Opening hours are 24/7 which can be seen first thing on the home page on the hero image. If this were to be missed by the user they can contact the company through various means on the contact us page. 
     
     2. As a Returning Visitor, I want to find the location of the gym.
@@ -127,7 +127,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 - Lighthouse test was run, performace - 82, accessibilty - 86, best practices - 75, seo - 90.
-- Was also tested on Google chrome, internet explorer and different device sizes through devtools.
+- Was also tested on Google chrome, internet explorer and different device sizes.
 - I have had my family test the site and they found it easy to use.
 
 
@@ -139,7 +139,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span></button>-->
 - I was unable to get the menu styled the way I wanted to and it wouldn't display on all devices. This was one of my biggest struggles. I tried code from W3schools for the nav menu on smaller screen sizes and couldn't get the menu to open and close. 
-- I then referred to Easy Tutorials on Youtube and used code from there instead which I have put below and in the credits section. I then had trouble styling the nav again and getting it to open and close and it took me almost until the end of the project to realise tht i used .nav instead of nav in the css.
+- I then referred to Easy Tutorials on Youtube and used code from there instead which I have put below and in the credits section. I then had trouble styling the nav again and getting it to open and close and it took me almost until the end of the project to realise that i used .nav instead of nav in the css.
 <!--    <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul class="menu">
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -221,12 +221,13 @@ The project was deployed to GitHub Pages using the following steps;
 - Photo by Sahil Khaliq from Pexels: https://www.pexels.com/photo/a-topless-man-showing-his-physique-10929340/
 - Photo by Anastasia  Shuraeva from Pexels: https://www.pexels.com/photo/photo-of-a-woman-lifting-a-kettlebell-4945521/
 - Photo by Sabel Blanco from Pexels: https://www.pexels.com/photo/photo-woman-bodybuilder-using-cable-and-pulley-machine-while-facing-mirror-1480520/
-- All icons from  Font awesome (fontawesome.com)
+- All icons from  Font awesome [fontawesome.com](https://fontawesome.com/)
 
 
 ### Acknowledgements
 
 - A huge shoutout to Easy Tutorials on Youtube for helping me fix the problem with my nav bar on smaller screen sizes!
+        
 
 
     
